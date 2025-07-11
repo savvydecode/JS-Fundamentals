@@ -16,7 +16,7 @@ function checkArguments() {
         } else{
             let argsUpper = args[0].toUpperCase();
             let argsLower = args[1].toLowerCase();
-            console.log(`2 arguments "${argsUpper} ${argsLower}"`);;
+            console.log(`2 arguments: "${argsUpper} ${argsLower}"`);;
         }
 
     } else {
