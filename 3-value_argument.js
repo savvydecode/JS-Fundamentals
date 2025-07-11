@@ -12,11 +12,11 @@ function checkArguments() {
 
         if (num === 1){
             let argUpper = args[0].toUpperCase();
-            console.log(`one argument "${argUpper}"`);
+            console.log(`${argUpper}`);
         } else{
             let argsUpper = args[0].toUpperCase();
             let argsLower = args[1].toLowerCase();
-            console.log(`2 arguments: "${argsUpper} ${argsLower}"`);;
+            console.log(`${argsUpper} ${argsLower}`);;
         }
 
     } else {
