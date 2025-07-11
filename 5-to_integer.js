@@ -8,7 +8,7 @@ function checkArguments() {
             console.log("Not a number"); 
         
         } else{
-            console.log(parseInt(args));
+            console.log(`My number: ${parseInt(args)}`);
         }
 
     }
