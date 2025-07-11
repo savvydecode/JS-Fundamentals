@@ -1,17 +1,7 @@
-
 // function: prints arguments passed to it
 function checkArguments() {
     args = process.argv.slice(2); //Get arguments passed to the script, excluding the first two default ones
-    if(args.length === 0){
-        console.log("undefined is undefined")
-    } else{
-        console.log(args[0] + " is " + args[1])
-    }
-    
 
-
-
-/* 
     //check index 0 has a content
     if (args[0]){
         let num = 0;
@@ -31,7 +21,17 @@ function checkArguments() {
     } else {
         console.log("No argument"); 
     }
-     */
+    
 }
 checkArguments();
     
+
+
+
+
+
+
+
+
+
+
