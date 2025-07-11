@@ -2,13 +2,26 @@
 // function: prints arguments passed to it
 function checkArguments() {
     args = process.argv.slice(2); //Get arguments passed to the script, excluding the first two default ones
-    let argsNumber = args.length;
-    if (argsNumber === 0) {
-        let agrsString = args.join(' '); // convert the array to string with each element seperated by a space character
-        console.log("No argument");
+
+    //check index 0 has a content
+    if (args[0]){
+        let num = 0;
+        for (index in args){
+            num += 1
+        }
+
+        let agrsString = args.join(' ')
+
+        if (num === 1){
+            console.log(`one argument "${agrsString}"`);
+        } else{
+            console.log(`2 arguments "${agrsString}"`);;
+        }
+
     } else {
-        console.log(args.join(' '));
-    } 
+        console.log("No argument"); 
+    }
     
 }
 checkArguments();
+    
